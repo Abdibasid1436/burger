@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // set port to 3000 or whatever heroku (deployment site) sets it to
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8889;
 
 // express middleware needed for serving static files. For more details
 // see here: http://expressjs.com/en/starter/static-files.html
